@@ -1,10 +1,10 @@
-h1{
+title-h1{
     text-align: center;
     color: aqua;
     font-size: 40px;
 }
 
-h2{
+.title-h2{
     color: aquamarine;
     margin-top: 50px;
 }
@@ -16,23 +16,23 @@ img{
     transform: translatex(-50%);
 }
 
-a{
+.redes-sociales{
     color: cornflowerblue;
     text-decoration: none;
     font-size: 22px;
     padding: 0 15px;
 }
 
-table{
+.table-familia{
     margin-left: 30px;
 }
 
 
-table,tr,td{
+.table-familia,.table-tr,.table-td{
     border: 1px solid black;
 }
 
-form{
+.form{
     width: max-content;
     position: relative;
     left: 50%;
