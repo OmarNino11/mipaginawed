@@ -1,21 +1,32 @@
-title-h1{
+/* estilos generales */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: cornflowerblue;
+}
+/* estilos h1 */
+.title-h1{
     text-align: center;
     color: aqua;
     font-size: 40px;
+    background-color: darkslateblue;
+    border-radius: 8px;
 }
-
+/* estilos h2 */
 .title-h2{
     color: aquamarine;
     margin-top: 50px;
 }
-
+/* estilos img*/
 img{
     width: 350px;
     position: relative;
     left: 50%;
     transform: translatex(-50%);
 }
-
+/* estilos redes sociales */
 .redes-sociales{
     color: cornflowerblue;
     text-decoration: none;
@@ -23,15 +34,23 @@ img{
     padding: 0 15px;
 }
 
+/* estilos tabla familia*/
 .table-familia{
     margin-left: 30px;
 }
 
+/* estilos tabla familia con tre y td*/
 
 .table-familia,.table-tr,.table-td{
+    text-align: center;
     border: 1px solid black;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
 }
 
+
+/* estilo para formulario */
 .form{
     width: max-content;
     position: relative;
@@ -43,4 +62,5 @@ img{
     padding: 20px;
     border: 1px solid purple;
     border-radius: 8px;
+    background: #f5f5f5;
 }
